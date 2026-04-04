@@ -1,0 +1,274 @@
+{
+  "common": {
+    "securityPlatform": "Plataforma de Seguridad",
+    "getStarted": "Comenzar",
+    "signIn": "Iniciar Sesión",
+    "watchDemo": "Ver Demo",
+    "learnMore": "Saber Más",
+    "contactSupport": "Contactar Soporte",
+    "freeTrial": "Prueba gratis 14 días",
+    "bookDemo": "Agendar una Demo",
+    "sendMessage": "Enviar Mensaje",
+    "subscribe": "Suscribirse",
+    "readMore": "Leer más →",
+    "darkTheme": "Tema oscuro",
+    "lightTheme": "Tema claro"
+  },
+  
+  "header": {
+    "features": "Características",
+    "solutions": "Soluciones",
+    "pricing": "Precios",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "register": "Comenzar"
+  },
+
+  "hero": {
+    "badge": "SEGURIDAD DE NUEVA GENERACIÓN",
+    "title": "Protegiendo las redes",
+    "titleGradient": "corporativas del futuro",
+    "description": "CatGate es una plataforma Zero Trust moderna que proporciona acceso seguro a los recursos sin comprometer el rendimiento ni la usabilidad.",
+    "features": {
+      "zeroTrust": "Seguridad Zero Trust",
+      "globalNetwork": "Red Global",
+      "encryption": "Cifrado de Extremo a Extremo",
+      "aiThreat": "Detección de Amenazas por IA"
+    },
+    "stats": {
+      "uptime": "Tiempo de actividad",
+      "countries": "Países",
+      "companies": "Empresas",
+      "support": "Soporte"
+    }
+  },
+
+  "trustCarousel": {
+    "title": "En las que confían empresas líderes"
+  },
+
+  "features": {
+    "title": "Características poderosas para su negocio",
+    "subtitle": "Todo lo que necesita para la seguridad corporativa moderna en una sola plataforma",
+    "items": {
+      "zeroTrust": {
+        "title": "Arquitectura Zero Trust",
+        "description": "Nunca confiar, siempre verificar. El acceso se concede solo después de una autenticación multifactor."
+      },
+      "globalMesh": {
+        "title": "Red Mesh Global",
+        "description": "Red distribuida con baja latencia. Servidores en más de 50 países para máximo rendimiento."
+      },
+      "encryption": {
+        "title": "Cifrado de Extremo a Extremo",
+        "description": "Todos los datos se cifran desde el dispositivo del usuario hasta el recurso de destino. Ni nosotros podemos acceder a ellos."
+      },
+      "instantDeployment": {
+        "title": "Implementación Instantánea",
+        "description": "Añada nuevos usuarios o recursos en menos de 5 minutos. Sin configuración compleja."
+      },
+      "aiThreat": {
+        "title": "Detección de Amenazas por IA",
+        "description": "La IA analiza el tráfico de la red y predice amenazas antes de que se materialicen."
+      },
+      "analytics": {
+        "title": "Análisis Detallado",
+        "description": "Visibilidad completa de la actividad de la red. Informes en tiempo real y datos históricos."
+      }
+    }
+  },
+
+  "howItWorks": {
+    "badge": "RÁPIDO Y SENCILLO",
+    "titlePrefix": "Cómo funciona ",
+    "titleCompany": "CatGate",
+    "titleSuffix": "",
+    "subtitle": "Cuatro pasos simples para la seguridad completa de su infraestructura",
+    "steps": {
+      "account": {
+        "title": "Crear Cuenta",
+        "description": "Regístrese y cree su organización en 2 minutos"
+      },
+      "resources": {
+        "title": "Añadir Recursos",
+        "description": "Conecte servidores, aplicaciones y bases de datos a su red"
+      },
+      "access": {
+        "title": "Configurar Acceso",
+        "description": "Defina políticas de acceso para usuarios y grupos"
+      },
+      "protected": {
+        "title": "Protección Activa",
+        "description": "Sus recursos están protegidos por principios Zero Trust"
+      }
+    }
+  },
+
+  "cta": {
+    "title": "¿Listo para empezar?",
+    "description": "Únase a más de 1000 empresas que confían en CatGate",
+    "button": "Comenzar gratis"
+  },
+
+  "faq": {
+    "title": "Preguntas ",
+    "titleGradient": "frecuentes",
+    "subtitle": "Respuestas a las preguntas más populares sobre CatGate",
+    "items": {
+      "q1": "¿En qué se diferencia CatGate de una VPN tradicional?",
+      "a1": "CatGate utiliza arquitectura Zero Trust, proporcionando acceso solo a recursos específicos en lugar de a toda la red. Esto mejora la seguridad, simplifica la administración y elimina vulnerabilidades inherentes a las VPN tradicionales.",
+      "q2": "¿Cuánto tiempo toma la implementación?",
+      "a2": "La implementación básica toma menos de 30 minutos. La mayoría de los clientes están operativos en un día. Nuestro equipo de soporte ayuda con la migración y configuración.",
+      "q3": "¿Qué sistemas operativos son compatibles?",
+      "a3": "CatGate es compatible con Windows 10/11, macOS, Linux, iOS y Android. También hay un cliente web disponible para cualquier navegador moderno.",
+      "q4": "¿Cómo se garantiza la seguridad de los datos?",
+      "a4": "Todas las conexiones utilizan cifrado de extremo a extremo. No almacenamos sus datos, y las claves de cifrado se generan y almacenan solo en sus dispositivos. Se implementa autenticación multifactor.",
+      "q5": "¿Hay límites de tráfico?",
+      "a5": "No, todos los planes proporcionan tráfico ilimitado. Creemos que la seguridad no debe estar limitada por el volumen de datos.",
+      "q6": "¿Se puede integrar con mi infraestructura existente?",
+      "a6": "Sí, CatGate se integra fácilmente con Active Directory, Okta, Google Workspace, Azure AD y otros sistemas. La API REST está disponible para integraciones personalizadas."
+    },
+    "help": "¿No encontró su pregunta?",
+    "contactLink": "Contacte al soporte →"
+  },
+
+  "contact": {
+    "title": "Contáctenos",
+    "titleGradient": "",
+    "subtitle": "¿Listo para hablar sobre cómo CatGate puede proteger su empresa?",
+    "form": {
+      "title": "Envíe un mensaje",
+      "name": "Nombre *",
+      "namePlaceholder": "Su nombre",
+      "email": "Correo electrónico *",
+      "emailPlaceholder": "usted@empresa.com",
+      "company": "Empresa",
+      "companyPlaceholder": "Nombre de la empresa",
+      "message": "Mensaje *",
+      "messagePlaceholder": "Cuéntenos sobre sus necesidades de seguridad...",
+      "submit": "Enviar Mensaje"
+    },
+    "demo": {
+      "title": "Solicite una Demo",
+      "description": "Obtenga una demostración personalizada de nuestro experto en seguridad",
+      "button": "Agendar Demo"
+    },
+    "info": {
+      "email": "Correo",
+      "phone": "Teléfono",
+      "phoneNote": "Soporte técnico: 24/7",
+      "hours": "Horario de atención",
+      "hoursWeekdays": "Lun-Vie: 9:00-18:00",
+      "hoursSupport": "Soporte: 24/7",
+      "office": "Oficina Moscú",
+      "officeAddress": "Calle Tverskaya #10, oficina 501",
+      "officeNote": "Centro de Negocios Tverskoy"
+    }
+  },
+
+  "footer": {
+    "description": "Plataforma moderna para seguridad corporativa basada en principios Zero Trust.",
+    "product": "Producto",
+    "productLinks": {
+      "features": "Características",
+      "solutions": "Soluciones",
+      "pricing": "Precios",
+      "docs": "Documentación",
+      "api": "API"
+    },
+    "company": "Compañía",
+    "companyLinks": {
+      "about": "Nosotros",
+      "blog": "Blog",
+      "careers": "Trabaja con nosotros",
+      "partners": "Socios",
+      "press": "Prensa"
+    },
+    "newsletter": {
+      "title": "Boletín informativo",
+      "description": "Suscríbase para recibir noticias y actualizaciones de seguridad",
+      "placeholder": "Su correo electrónico",
+      "privacy": "Al suscribirse, acepta nuestra Política de Privacidad"
+    },
+    "copyright": "Todos los derechos reservados.",
+    "legal": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Uso",
+      "cookies": "Política de Cookies",
+      "sitemap": "Mapa del sitio"
+    },
+    "madeWith": "Hecho con ❤️ para la seguridad"
+  },
+
+  "auth": {
+    "login": {
+      "title": "Iniciar Sesión",
+      "subtitle": "Inicie sesión en su cuenta de CatGate para gestionar la seguridad",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "su@email.com",
+      "passwordLabel": "Contraseña",
+      "passwordPlaceholder": "••••••••",
+      "forgotPassword": "¿Olvidó su contraseña?",
+      "rememberMe": "Recordarme",
+      "submitButton": "Iniciar Sesión",
+      "submittingButton": "Iniciando sesión...",
+      "noAccount": "¿No tiene una cuenta?",
+      "registerLink": "Regístrese",
+      "loginWith": "Inicie sesión con",
+      "backToLogin": "Volver a iniciar sesión"
+    },
+    "register": {
+      "title": "Crear Cuenta",
+      "subtitle": "Regístrese para comenzar su prueba gratuita de 14 días",
+      "nameLabel": "Nombre completo",
+      "namePlaceholder": "Juan Pérez",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "su@email.com",
+      "passwordLabel": "Contraseña",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "Confirmar contraseña",
+      "confirmPasswordPlaceholder": "••••••••",
+      "termsPrefix": "Acepto los",
+      "termsLink": "Términos de Servicio",
+      "and": "y la",
+      "privacyLink": "Política de Privacidad",
+      "submitButton": "Comenzar prueba gratis",
+      "submittingButton": "Registrando...",
+      "hasAccount": "¿Ya tiene una cuenta?",
+      "loginLink": "Inicie sesión",
+      "registerWith": "Regístrese con",
+      "passwordMismatch": "Las contraseñas no coinciden"
+    },
+    "forgotPassword": {
+      "title": "Restablecer Contraseña",
+      "subtitle": "Ingrese el correo de su cuenta para restablecer su contraseña",
+      "successTitle": "Correo Enviado",
+      "successMessage": "Hemos enviado las instrucciones para restablecer su contraseña a",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "su@email.com",
+      "submitButton": "Enviar Instrucciones",
+      "submittingButton": "Enviando...",
+      "backToLogin": "Volver a la página de inicio de sesión",
+      "notReceived": "¿No recibió el correo? Revise su carpeta de spam o",
+      "tryAgain": "intente nuevamente",
+      "needHelp": "¿Necesita ayuda?",
+      "contactSupport": "Contacte al soporte"
+    },
+    "social": {
+      "google": "Google",
+      "github": "GitHub",
+      "yandex": "Yandex"
+    },
+    "footer": {
+      "copyright": "© 2026 Plataforma de Seguridad CatGate. Todos los derechos reservados."
+    }
+  },
+
+  "notFound": {
+    "badge": "Página no encontrada",
+    "title": "404",
+    "subtitle": "¡Oops! Esta página no existe",
+    "description": "Es posible que haya seguido un enlace desactualizado o que la página haya sido movida.",
+    "button": "Volver al inicio"
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "common": {
+    "securityPlatform": "Security Platform",
+    "getStarted": "Get Started",
+    "signIn": "Sign In",
+    "watchDemo": "Watch Demo",
+    "learnMore": "Learn More",
+    "contactSupport": "Contact Support",
+    "freeTrial": "Start 14-day free trial",
+    "bookDemo": "Book a Demo",
+    "sendMessage": "Send Message",
+    "subscribe": "Subscribe",
+    "readMore": "Read more →",
+    "darkTheme": "Dark theme",
+    "lightTheme": "Light theme"
+  },
+  
+  "header": {
+    "features": "Features",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "login": "Log in",
+    "register": "Get Started"
+  },
+
+  "hero": {
+    "badge": "NEXT GENERATION SECURITY",
+    "title": "Protecting corporate",
+    "titleGradient": "networks of the future",
+    "description": "CatGate is a modern Zero Trust platform that provides secure access to resources without compromising performance or usability.",
+    "features": {
+      "zeroTrust": "Zero Trust Security",
+      "globalNetwork": "Global Network",
+      "encryption": "End-to-End Encryption",
+      "aiThreat": "AI Threat Detection"
+    },
+    "stats": {
+      "uptime": "Uptime",
+      "countries": "Countries",
+      "companies": "Companies",
+      "support": "Support"
+    }
+  },
+
+  "trustCarousel": {
+    "title": "Trusted by leading companies"
+  },
+
+  "features": {
+    "title": "Powerful features for your business",
+    "subtitle": "Everything you need for modern corporate security in one platform",
+    "items": {
+      "zeroTrust": {
+        "title": "Zero Trust Architecture",
+        "description": "Never trust, always verify principle. Access is granted only after multi-factor authentication."
+      },
+      "globalMesh": {
+        "title": "Global Mesh Network",
+        "description": "Distributed network with low latency. Servers in 50+ countries for maximum performance."
+      },
+      "encryption": {
+        "title": "End-to-End Encryption",
+        "description": "All data is encrypted from user device to destination resource. Even we can't access it."
+      },
+      "instantDeployment": {
+        "title": "Instant Deployment",
+        "description": "Add new users or resources in under 5 minutes. No complex setup required."
+      },
+      "aiThreat": {
+        "title": "AI Threat Detection",
+        "description": "AI analyzes network traffic and predicts threats before they materialize."
+      },
+      "analytics": {
+        "title": "Detailed Analytics",
+        "description": "Complete visibility of network activity. Real-time reports and historical data."
+      }
+    }
+  },
+
+  "howItWorks": {
+    "badge": "FAST AND SIMPLE",
+    "titlePrefix": "How ",
+    "titleCompany": "CatGate ",
+    "titleSuffix": "works",
+    "subtitle": "Four simple steps to complete security of your infrastructure",
+    "steps": {
+      "account": {
+        "title": "Create Account",
+        "description": "Register and create your organization in 2 minutes"
+      },
+      "resources": {
+        "title": "Add Resources",
+        "description": "Connect servers, applications and databases to your network"
+      },
+      "access": {
+        "title": "Configure Access",
+        "description": "Define access policies for users and groups"
+      },
+      "protected": {
+        "title": "Protection Active",
+        "description": "Your resources are protected by Zero Trust principles"
+      }
+    }
+  },
+
+  "cta": {
+    "title": "Ready to start?",
+    "description": "Join 1000+ companies that trust CatGate",
+    "button": "Get Started Free"
+  },
+
+  "faq": {
+    "title": "Frequently asked ",
+    "titleGradient": "questions",
+    "subtitle": "Answers to the most popular questions about CatGate",
+    "items": {
+      "q1": "How is CatGate different from traditional VPN?",
+      "a1": "CatGate uses Zero Trust architecture, providing access only to specific resources rather than the entire network. This enhances security, simplifies management, and eliminates vulnerabilities inherent in traditional VPNs.",
+      "q2": "How long does implementation take?",
+      "a2": "Basic deployment takes less than 30 minutes. Most customers are up and running within a day. Our support team helps with migration and setup.",
+      "q3": "Which operating systems are supported?",
+      "a3": "CatGate supports Windows 10/11, macOS, Linux, iOS, and Android. A web client is also available for any modern browser.",
+      "q4": "How is data security ensured?",
+      "a4": "All connections use end-to-end encryption. We don't store your data, and encryption keys are generated and stored only on your devices. Multi-factor authentication is implemented.",
+      "q5": "Are there traffic limits?",
+      "a5": "No, all plans provide unlimited traffic. We believe security shouldn't be limited by data volume.",
+      "q6": "Can it integrate with existing infrastructure?",
+      "a6": "Yes, CatGate easily integrates with Active Directory, Okta, Google Workspace, Azure AD and other systems. REST API is available for custom integrations."
+    },
+    "help": "Didn't find your question?",
+    "contactLink": "Contact support →"
+  },
+
+  "contact": {
+    "title": "Contact ",
+    "titleGradient": "us",
+    "subtitle": "Ready to discuss how CatGate can protect your company?",
+    "form": {
+      "title": "Send a message",
+      "name": "Name *",
+      "namePlaceholder": "Your name",
+      "email": "Email *",
+      "emailPlaceholder": "your@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Company name",
+      "message": "Message *",
+      "messagePlaceholder": "Tell us about your security needs...",
+      "submit": "Send Message"
+    },
+    "demo": {
+      "title": "Request a Demo",
+      "description": "Get a personal demonstration from our security expert",
+      "button": "Schedule Demo"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "phoneNote": "Technical support: 24/7",
+      "hours": "Business Hours",
+      "hoursWeekdays": "Mon-Fri: 9:00-18:00 (MSK)",
+      "hoursSupport": "Support: 24/7",
+      "office": "Moscow Office",
+      "officeAddress": "10 Tverskaya St., office 501",
+      "officeNote": "Tverskoy Business Center"
+    }
+  },
+
+  "footer": {
+    "description": "Modern platform for corporate security based on Zero Trust principles.",
+    "product": "Product",
+    "productLinks": {
+      "features": "Features",
+      "solutions": "Solutions",
+      "pricing": "Pricing",
+      "docs": "Documentation",
+      "api": "API"
+    },
+    "company": "Company",
+    "companyLinks": {
+      "about": "About",
+      "blog": "Blog",
+      "careers": "Careers",
+      "partners": "Partners",
+      "press": "Press"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Subscribe to receive security news and updates",
+      "placeholder": "Your email",
+      "privacy": "By subscribing, you agree to our Privacy Policy"
+    },
+    "copyright": "All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "cookies": "Cookie Policy",
+      "sitemap": "Sitemap"
+    },
+    "madeWith": "Made with ❤️ for security"
+  },
+    "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Sign in to your CatGate account to manage security",
+      "emailLabel": "Email",
+      "emailPlaceholder": "your@email.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "••••••••",
+      "forgotPassword": "Forgot password?",
+      "rememberMe": "Remember me",
+      "submitButton": "Sign In",
+      "submittingButton": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Sign up",
+      "loginWith": "Sign in with",
+      "backToLogin": "Back to login"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Sign up to start your 14-day free trial",
+      "nameLabel": "Full name",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "your@email.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "••••••••",
+      "termsPrefix": "I agree to the",
+      "termsLink": "Terms of Service",
+      "and": "and",
+      "privacyLink": "Privacy Policy",
+      "submitButton": "Start free trial",
+      "submittingButton": "Signing up...",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Sign in",
+      "registerWith": "Sign up with",
+      "passwordMismatch": "Passwords do not match"
+    },
+    "forgotPassword": {
+      "title": "Reset Password",
+      "subtitle": "Enter your account email to reset your password",
+      "successTitle": "Email Sent",
+      "successMessage": "We've sent password reset instructions to ",
+      "emailLabel": "Email",
+      "emailPlaceholder": "your@email.com",
+      "submitButton": "Send Instructions",
+      "submittingButton": "Sending...",
+      "backToLogin": "Back to login page",
+      "notReceived": "Didn't receive the email? Check your spam folder or ",
+      "tryAgain": "try again",
+      "needHelp": "Need help?",
+      "contactSupport": "Contact support"
+    },
+    "social": {
+      "google": "Google",
+      "github": "GitHub",
+      "yandex": "Yandex"
+    },
+    "footer": {
+      "copyright": "© 2026 CatGate Security Platform. All rights reserved."
+    }
+  },
+    "notFound": {
+    "badge": "Page not found",
+    "title": "404",
+    "subtitle": "Oops! This page doesn't exist",
+    "description": "You may have followed an outdated link or the page has been moved.",
+    "button": "Back to home"
+  }
+}

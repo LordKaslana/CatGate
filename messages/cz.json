@@ -1,0 +1,274 @@
+{
+  "common": {
+    "securityPlatform": "Bezpečnostní platforma",
+    "getStarted": "Začít",
+    "signIn": "Přihlásit se",
+    "watchDemo": "Zhlédnout demo",
+    "learnMore": "Zjistit více",
+    "contactSupport": "Kontaktovat podporu",
+    "freeTrial": "Bezplatná 14denní zkušební verze",
+    "bookDemo": "Rezervovat demo",
+    "sendMessage": "Odeslat zprávu",
+    "subscribe": "Odebírat",
+    "readMore": "Číst dále →",
+    "darkTheme": "Tmavý režim",
+    "lightTheme": "Světlý režim"
+  },
+  
+  "header": {
+    "features": "Funkce",
+    "solutions": "Řešení",
+    "pricing": "Ceny",
+    "contact": "Kontakt",
+    "login": "Přihlásit se",
+    "register": "Začít"
+  },
+
+  "hero": {
+    "badge": "BEZPEČNOST NOVÉ GENERACE",
+    "title": "Ochrana firemních",
+    "titleGradient": "sítí budoucnosti",
+    "description": "CatGate je moderní platforma Zero Trust, která poskytuje bezpečný přístup k zdrojům bez kompromisů v výkonu nebo použitelnosti.",
+    "features": {
+      "zeroTrust": "Bezpečnost Zero Trust",
+      "globalNetwork": "Globální síť",
+      "encryption": "Šifrování end-to-end",
+      "aiThreat": "Detekce hrozeb pomocí AI"
+    },
+    "stats": {
+      "uptime": "Dostupnost",
+      "countries": "Zemí",
+      "companies": "Společností",
+      "support": "Podpora"
+    }
+  },
+
+  "trustCarousel": {
+    "title": "Důvěřují nám přední společnosti"
+  },
+
+  "features": {
+    "title": "Výkonné funkce pro vaši firmu",
+    "subtitle": "Vše, co potřebujete pro moderní firemní bezpečnost na jedné platformě",
+    "items": {
+      "zeroTrust": {
+        "title": "Architektura Zero Trust",
+        "description": "Princip 'nikdy nedůvěřuj, vždy ověřuj'. Přístup je udělen pouze po vícefaktorové autentizaci."
+      },
+      "globalMesh": {
+        "title": "Globální Mesh síť",
+        "description": "Distribuovaná síť s nízkou latencí. Servery ve více než 50 zemích pro maximální výkon."
+      },
+      "encryption": {
+        "title": "Šifrování end-to-end",
+        "description": "Všechna data jsou šifrována od zařízení uživatele k cílovému zdroji. Dokonce ani my k nim nemáme přístup."
+      },
+      "instantDeployment": {
+        "title": "Okamžité nasazení",
+        "description": "Přidejte nové uživatele nebo zdroje za méně než 5 minut. Není vyžadováno složité nastavení."
+      },
+      "aiThreat": {
+        "title": "Detekce hrozeb pomocí AI",
+        "description": "AI analyzuje síťový provoz a předpovídá hrozby dříve, než se materializují."
+      },
+      "analytics": {
+        "title": "Podrobné analýzy",
+        "description": "Úplný přehled o síťové aktivitě. Zprávy v reálném čase a historická data."
+      }
+    }
+  },
+
+  "howItWorks": {
+    "badge": "RYCHLÉ A JEDNODUCHÉ",
+    "titlePrefix": "Jak ",
+    "titleCompany": "CatGate ",
+    "titleSuffix": "funguje",
+    "subtitle": "Čtyři jednoduché kroky k úplnému zabezpečení vaší infrastruktury",
+    "steps": {
+      "account": {
+        "title": "Vytvořte účet",
+        "description": "Zaregistrujte se a vytvořte svou organizaci během 2 minut"
+      },
+      "resources": {
+        "title": "Přidejte zdroje",
+        "description": "Připojte servery, aplikace a databáze k vaší síti"
+      },
+      "access": {
+        "title": "Nastavte přístup",
+        "description": "Definujte přístupové politiky pro uživatele a skupiny"
+      },
+      "protected": {
+        "title": "Ochrana aktivní",
+        "description": "Vaše zdroje jsou chráněny principy Zero Trust"
+      }
+    }
+  },
+
+  "cta": {
+    "title": "Jste připraveni začít?",
+    "description": "Připojte se k více než 1000 společnostem, které důvěřují CatGate",
+    "button": "Začněte zdarma"
+  },
+
+  "faq": {
+    "title": "Často kladené ",
+    "titleGradient": "otázky",
+    "subtitle": "Odpovědi na nejčastější dotazy o CatGate",
+    "items": {
+      "q1": "Jak se CatGate liší od tradiční VPN?",
+      "a1": "CatGate používá architekturu Zero Trust, která poskytuje přístup pouze ke konkrétním zdrojům, nikoli k celé síti. To zvyšuje bezpečnost, zjednodušuje správu a eliminuje zranitelnosti typické pro tradiční VPN.",
+      "q2": "Jak dlouho trvá implementace?",
+      "a2": "Základní nasazení trvá méně než 30 minut. Většina zákazníků je v provozu do jednoho dne. Náš podpůrný tým pomáhá s migrací a nastavením.",
+      "q3": "Které operační systémy jsou podporovány?",
+      "a3": "CatGate podporuje Windows 10/11, macOS, Linux, iOS a Android. Webový klient je k dispozici pro všechny moderní prohlížeče.",
+      "q4": "Jak je zajištěna bezpečnost dat?",
+      "a4": "Všechna připojení používají end-to-end šifrování. Data neukládáme a šifrovací klíče jsou generovány a ukládány pouze na vašich zařízeních. Je implementována vícefaktorová autentizace.",
+      "q5": "Existují nějaká omezení přenosu dat?",
+      "a5": "Ne, všechny plány nabízejí neomezený přenos dat. Věříme, že bezpečnost by neměla být omezena objemem dat.",
+      "q6": "Lze jej integrovat se stávající infrastrukturou?",
+      "a6": "Ano, CatGate se snadno integruje s Active Directory, Okta, Google Workspace, Azure AD a dalšími systémy. Pro vlastní integrace je k dispozici REST API."
+    },
+    "help": "Nenašli jste svou otázku?",
+    "contactLink": "Kontaktujte podporu →"
+  },
+
+  "contact": {
+    "title": "Kontaktujte ",
+    "titleGradient": "nás",
+    "subtitle": "Jste připraveni probrat, jak může CatGate chránit vaši společnost?",
+    "form": {
+      "title": "Odeslat zprávu",
+      "name": "Jméno *",
+      "namePlaceholder": "Vaše jméno",
+      "email": "E-mail *",
+      "emailPlaceholder": "vas@firma.cz",
+      "company": "Společnost",
+      "companyPlaceholder": "Název společnosti",
+      "message": "Zpráva *",
+      "messagePlaceholder": "Sdělte nám své požadavky na zabezpečení...",
+      "submit": "Odeslat zprávu"
+    },
+    "demo": {
+      "title": "Požádat o demo",
+      "description": "Získejte osobní ukázku od našeho bezpečnostního experta",
+      "button": "Naplánovat demo"
+    },
+    "info": {
+      "email": "E-mail",
+      "phone": "Telefon",
+      "phoneNote": "Technická podpora: 24/7",
+      "hours": "Provozní doba",
+      "hoursWeekdays": "Po-Pá: 9:00-18:00 (SEČ)",
+      "hoursSupport": "Podpora: 24/7",
+      "office": "Pražská kancelář",
+      "officeAddress": "Václavské náměstí 10, kancelář 501",
+      "officeNote": "Obchodní centrum Praha"
+    }
+  },
+
+  "footer": {
+    "description": "Moderní platforma pro firemní bezpečnost založená na principech Zero Trust.",
+    "product": "Produkt",
+    "productLinks": {
+      "features": "Funkce",
+      "solutions": "Řešení",
+      "pricing": "Ceny",
+      "docs": "Dokumentace",
+      "api": "API"
+    },
+    "company": "Společnost",
+    "companyLinks": {
+      "about": "O nás",
+      "blog": "Blog",
+      "careers": "Kariéra",
+      "partners": "Partneři",
+      "press": "Tisk"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Přihlaste se k odběru bezpečnostních novinek a aktualizací",
+      "placeholder": "Váš e-mail",
+      "privacy": "Přihlášením souhlasíte s našimi Zásadami ochrany osobních údajů"
+    },
+    "copyright": "Všechna práva vyhrazena.",
+    "legal": {
+      "privacy": "Zásady ochrany osobních údajů",
+      "terms": "Podmínky použití",
+      "cookies": "Zásady používání cookies",
+      "sitemap": "Mapa webu"
+    },
+    "madeWith": "Vyrobeno s ❤️ pro bezpečnost"
+  },
+
+  "auth": {
+    "login": {
+      "title": "Přihlásit se",
+      "subtitle": "Přihlaste se ke svému účtu CatGate pro správu zabezpečení",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "vas@email.cz",
+      "passwordLabel": "Heslo",
+      "passwordPlaceholder": "••••••••",
+      "forgotPassword": "Zapomněli jste heslo?",
+      "rememberMe": "Zapamatovat si mě",
+      "submitButton": "Přihlásit se",
+      "submittingButton": "Přihlašování...",
+      "noAccount": "Nemáte účet?",
+      "registerLink": "Registrovat se",
+      "loginWith": "Přihlásit se pomocí",
+      "backToLogin": "Zpět na přihlášení"
+    },
+    "register": {
+      "title": "Vytvořit účet",
+      "subtitle": "Zaregistrujte se a začněte svou 14denní bezplatnou zkušební verzi",
+      "nameLabel": "Celé jméno",
+      "namePlaceholder": "Jan Novák",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "vas@email.cz",
+      "passwordLabel": "Heslo",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "Potvrďte heslo",
+      "confirmPasswordPlaceholder": "••••••••",
+      "termsPrefix": "Souhlasím s ",
+      "termsLink": "Podmínkami služby",
+      "and": "a",
+      "privacyLink": "Zásadami ochrany osobních údajů",
+      "submitButton": "Zahájit bezplatnou zkušební verzi",
+      "submittingButton": "Registrace...",
+      "hasAccount": "Již máte účet?",
+      "loginLink": "Přihlásit se",
+      "registerWith": "Registrovat se pomocí",
+      "passwordMismatch": "Hesla se neshodují"
+    },
+    "forgotPassword": {
+      "title": "Obnovení hesla",
+      "subtitle": "Zadejte e-mail svého účtu pro obnovení hesla",
+      "successTitle": "E-mail odeslán",
+      "successMessage": "Odeslali jsme instrukce k obnovení hesla na ",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "vas@email.cz",
+      "submitButton": "Odeslat instrukce",
+      "submittingButton": "Odesílání...",
+      "backToLogin": "Zpět na přihlašovací stránku",
+      "notReceived": "Nedorazil vám e-mail? Zkontrolujte složku spam nebo ",
+      "tryAgain": "zkuste to znovu",
+      "needHelp": "Potřebujete pomoc?",
+      "contactSupport": "Kontaktujte podporu"
+    },
+    "social": {
+      "google": "Google",
+      "github": "GitHub",
+      "yandex": "Yandex"
+    },
+    "footer": {
+      "copyright": "© 2026 CatGate Bezpečnostní platforma. Všechna práva vyhrazena."
+    }
+  },
+
+  "notFound": {
+    "badge": "Stránka nenalezena",
+    "title": "404",
+    "subtitle": "Jejda! Tato stránka neexistuje",
+    "description": "Možná jste použili neplatný odkaz nebo byla stránka přesunuta.",
+    "button": "Zpět na domovskou stránku"
+  }
+}

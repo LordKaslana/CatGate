@@ -1,0 +1,274 @@
+{
+  "common": {
+    "securityPlatform": "Sikkerhetsplattform",
+    "getStarted": "Kom i gang",
+    "signIn": "Logg inn",
+    "watchDemo": "Se demo",
+    "learnMore": "Lær mer",
+    "contactSupport": "Kontakt support",
+    "freeTrial": "Start 14-dagers gratis prøveperiode",
+    "bookDemo": "Bestill demo",
+    "sendMessage": "Send melding",
+    "subscribe": "Abonner",
+    "readMore": "Les mer →",
+    "darkTheme": "Mørkt tema",
+    "lightTheme": "Lyst tema"
+  },
+  
+  "header": {
+    "features": "Funksjoner",
+    "solutions": "Løsninger",
+    "pricing": "Priser",
+    "contact": "Kontakt",
+    "login": "Logg inn",
+    "register": "Kom i gang"
+  },
+
+  "hero": {
+    "badge": "SIKKERHET FOR NESTE GENERASJON",
+    "title": "Beskyttelse av fremtidens",
+    "titleGradient": "bedriftsnettverk",
+    "description": "CatGate er en moderne Zero Trust-plattform som gir sikker tilgang til ressurser uten å gå på kompromiss med ytelse eller brukervennlighet.",
+    "features": {
+      "zeroTrust": "Zero Trust-sikkerhet",
+      "globalNetwork": "Globalt nettverk",
+      "encryption": "Ende-til-ende-kryptering",
+      "aiThreat": "AI-trusseldeteksjon"
+    },
+    "stats": {
+      "uptime": "Oppetid",
+      "countries": "Land",
+      "companies": "Bedrifter",
+      "support": "Support"
+    }
+  },
+
+  "trustCarousel": {
+    "title": "Trustet av ledende bedrifter"
+  },
+
+  "features": {
+    "title": "Kraftfulle funksjoner for din bedrift",
+    "subtitle": "Alt du trenger for moderne bedriftssikkerhet i én plattform",
+    "items": {
+      "zeroTrust": {
+        "title": "Zero Trust-arkitektur",
+        "description": "Prinsippet 'stol aldri, verifiser alltid'. Tilgang gis kun etter flerfaktorautentisering."
+      },
+      "globalMesh": {
+        "title": "Globalt Mesh-nettverk",
+        "description": "Distribuert nettverk med lav latens. Servere i over 50 land for maksimal ytelse."
+      },
+      "encryption": {
+        "title": "Ende-til-ende-kryptering",
+        "description": "Alle data krypteres fra brukerens enhet til målressursen. Ikke engang vi kan få tilgang til dem."
+      },
+      "instantDeployment": {
+        "title": "Umiddelbar distribusjon",
+        "description": "Legg til nye brukere eller ressurser på under 5 minutter. Ingen kompleks oppsett nødvendig."
+      },
+      "aiThreat": {
+        "title": "AI-trusseldeteksjon",
+        "description": "AI analyserer nettverkstrafikk og forutsier trusler før de materialiserer seg."
+      },
+      "analytics": {
+        "title": "Detaljert analyse",
+        "description": "Full oversikt over nettverksaktivitet. Sanntidsrapporter og historiske data."
+      }
+    }
+  },
+
+  "howItWorks": {
+    "badge": "RASKT OG ENKELT",
+    "titlePrefix": "Slik ",
+    "titleCompany": "CatGate ",
+    "titleSuffix": "fungerer",
+    "subtitle": "Fire enkle trinn for full sikkerhet i din infrastruktur",
+    "steps": {
+      "account": {
+        "title": "Opprett konto",
+        "description": "Registrer deg og opprett din organisasjon på 2 minutter"
+      },
+      "resources": {
+        "title": "Legg til ressurser",
+        "description": "Koble servere, applikasjoner og databaser til nettverket ditt"
+      },
+      "access": {
+        "title": "Konfigurer tilgang",
+        "description": "Definer tilgangspolicyer for brukere og grupper"
+      },
+      "protected": {
+        "title": "Beskyttelse aktiv",
+        "description": "Dine ressurser er beskyttet av Zero Trust-prinsipper"
+      }
+    }
+  },
+
+  "cta": {
+    "title": "Klar til å starte?",
+    "description": "Bli med blant over 1000 bedrifter som stoler på CatGate",
+    "button": "Start gratis"
+  },
+
+  "faq": {
+    "title": "Ofte stilte ",
+    "titleGradient": "spørsmål",
+    "subtitle": "Svar på de vanligste spørsmålene om CatGate",
+    "items": {
+      "q1": "Hvordan skiller CatGate seg fra tradisjonell VPN?",
+      "a1": "CatGate bruker Zero Trust-arkitektur, som gir tilgang kun til spesifikke ressurser i stedet for hele nettverket. Dette forbedrer sikkerheten, forenkler administrasjonen og eliminerer sårbarheter som er typiske for tradisjonelle VPN-er.",
+      "q2": "Hvor lang tid tar implementering?",
+      "a2": "Grunnleggende distribusjon tar mindre enn 30 minutter. De fleste kunder er i gang innen én dag. Vårt supportteam hjelper med migrering og oppsett.",
+      "q3": "Hvilke operativsystemer støttes?",
+      "a3": "CatGate støtter Windows 10/11, macOS, Linux, iOS og Android. En webklient er også tilgjengelig for alle moderne nettlesere.",
+      "q4": "Hvordan sikres datasikkerheten?",
+      "a4": "Alle tilkoblinger bruker ende-til-ende-kryptering. Vi lagrer ikke dataene dine, og krypteringsnøkler genereres og lagres kun på dine enheter. Flerfaktorautentisering er implementert.",
+      "q5": "Er det trafikkbegrensninger?",
+      "a5": "Nei, alle abonnementer tilbyr ubegrenset trafikk. Vi mener sikkerhet ikke bør begrenses av datamengde.",
+      "q6": "Kan det integreres med eksisterende infrastruktur?",
+      "a6": "Ja, CatGate integreres enkelt med Active Directory, Okta, Google Workspace, Azure AD og andre systemer. REST API er tilgjengelig for egendefinerte integrasjoner."
+    },
+    "help": "Fant du ikke spørsmålet ditt?",
+    "contactLink": "Kontakt support →"
+  },
+
+  "contact": {
+    "title": "Kontakt ",
+    "titleGradient": "oss",
+    "subtitle": "Klar til å diskutere hvordan CatGate kan beskytte din bedrift?",
+    "form": {
+      "title": "Send en melding",
+      "name": "Navn *",
+      "namePlaceholder": "Ditt navn",
+      "email": "E-post *",
+      "emailPlaceholder": "din@bedrift.no",
+      "company": "Bedrift",
+      "companyPlaceholder": "Bedriftsnavn",
+      "message": "Melding *",
+      "messagePlaceholder": "Fortell oss om dine sikkerhetsbehov...",
+      "submit": "Send melding"
+    },
+    "demo": {
+      "title": "Be om demo",
+      "description": "Få en personlig demonstrasjon fra vår sikkerhetsekspert",
+      "button": "Planlegg demo"
+    },
+    "info": {
+      "email": "E-post",
+      "phone": "Telefon",
+      "phoneNote": "Teknisk support: 24/7",
+      "hours": "Åpningstider",
+      "hoursWeekdays": "Man-Fre: 9:00-18:00 (norsk tid)",
+      "hoursSupport": "Support: 24/7",
+      "office": "Oslo-kontor",
+      "officeAddress": "Karl Johans gate 10, kontor 501",
+      "officeNote": "Næringssenter Oslo"
+    }
+  },
+
+  "footer": {
+    "description": "Moderne plattform for bedriftssikkerhet basert på Zero Trust-prinsipper.",
+    "product": "Produkt",
+    "productLinks": {
+      "features": "Funksjoner",
+      "solutions": "Løsninger",
+      "pricing": "Priser",
+      "docs": "Dokumentasjon",
+      "api": "API"
+    },
+    "company": "Selskap",
+    "companyLinks": {
+      "about": "Om oss",
+      "blog": "Blogg",
+      "careers": "Karriere",
+      "partners": "Partnere",
+      "press": "Presse"
+    },
+    "newsletter": {
+      "title": "Nyhetsbrev",
+      "description": "Abonner for å motta sikkerhetsnyheter og oppdateringer",
+      "placeholder": "Din e-post",
+      "privacy": "Ved å abonnere godtar du vår personvernerklæring"
+    },
+    "copyright": "Alle rettigheter forbeholdt.",
+    "legal": {
+      "privacy": "Personvern",
+      "terms": "Bruksvilkår",
+      "cookies": "Retningslinjer for informasjonskapsler",
+      "sitemap": "Sidekart"
+    },
+    "madeWith": "Laget med ❤️ for sikkerhet"
+  },
+
+  "auth": {
+    "login": {
+      "title": "Logg inn",
+      "subtitle": "Logg inn på din CatGate-konto for å administrere sikkerhet",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "din@epost.no",
+      "passwordLabel": "Passord",
+      "passwordPlaceholder": "••••••••",
+      "forgotPassword": "Glemt passord?",
+      "rememberMe": "Husk meg",
+      "submitButton": "Logg inn",
+      "submittingButton": "Logger inn...",
+      "noAccount": "Har du ikke en konto?",
+      "registerLink": "Registrer deg",
+      "loginWith": "Logg inn med",
+      "backToLogin": "Tilbake til innlogging"
+    },
+    "register": {
+      "title": "Opprett konto",
+      "subtitle": "Registrer deg for å starte din 14-dagers gratis prøveperiode",
+      "nameLabel": "Fullt navn",
+      "namePlaceholder": "Ola Nordmann",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "din@epost.no",
+      "passwordLabel": "Passord",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "Bekreft passord",
+      "confirmPasswordPlaceholder": "••••••••",
+      "termsPrefix": "Jeg godtar ",
+      "termsLink": "tjenestevilkårene",
+      "and": "og",
+      "privacyLink": "personvernerklæringen",
+      "submitButton": "Start gratis prøveperiode",
+      "submittingButton": "Registrerer...",
+      "hasAccount": "Har du allerede en konto?",
+      "loginLink": "Logg inn",
+      "registerWith": "Registrer deg med",
+      "passwordMismatch": "Passordene samsvarer ikke"
+    },
+    "forgotPassword": {
+      "title": "Tilbakestill passord",
+      "subtitle": "Skriv inn e-posten til kontoen din for å tilbakestille passordet",
+      "successTitle": "E-post sendt",
+      "successMessage": "Vi har sendt instruksjoner for tilbakestilling av passord til ",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "din@epost.no",
+      "submitButton": "Send instruksjoner",
+      "submittingButton": "Sender...",
+      "backToLogin": "Tilbake til innloggingssiden",
+      "notReceived": "Fikk du ikke e-posten? Sjekk spam-mappen eller ",
+      "tryAgain": "prøv igjen",
+      "needHelp": "Trenger du hjelp?",
+      "contactSupport": "Kontakt support"
+    },
+    "social": {
+      "google": "Google",
+      "github": "GitHub",
+      "yandex": "Yandex"
+    },
+    "footer": {
+      "copyright": "© 2026 CatGate Sikkerhetsplattform. Alle rettigheter forbeholdt."
+    }
+  },
+
+  "notFound": {
+    "badge": "Siden ble ikke funnet",
+    "title": "404",
+    "subtitle": "Ops! Denne siden finnes ikke",
+    "description": "Du kan ha fulgt en utdatert lenke eller siden er flyttet.",
+    "button": "Tilbake til forsiden"
+  }
+}

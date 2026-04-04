@@ -1,0 +1,88 @@
+/* Анимации для Tailwind v4 */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+  }
+  33% {
+    transform: translateY(-20px) translateX(10px);
+  }
+  66% {
+    transform: translateY(10px) translateX(-10px);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.float {
+  animation: float 10s infinite ease-in-out;
+}
+
+.pulse-slow {
+  animation: pulse-slow 3s infinite;
+}
+
+/* =================== */
+/* АНИМАЦИИ КАРУСЕЛИ  */
+/* =================== */
+
+/* Бесконечная горизонтальная прокрутка - для десктопа */
+@keyframes infinite-scroll-desktop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-176px * 8)); /* 8 компаний × (160px + 16px gap) */
+  }
+}
+
+/* Бесконечная горизонтальная прокрутка - для мобилок */
+@keyframes infinite-scroll-mobile {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-120px * 8)); /* 8 компаний × (96px + 8px gap) */
+  }
+}
+
+/* Общие стили анимации */
+.animate-infinite-scroll {
+  animation: infinite-scroll-desktop 30s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+/* Адаптация для мобилок */
+@media (max-width: 768px) {
+  .animate-infinite-scroll {
+    animation-name: infinite-scroll-mobile;
+    animation-duration: 40s;
+  }
+}
+
+/* Эффект при наведении на логотип */
+.logo-hover {
+  transition: all 0.3s ease;
+}
+
+.logo-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Скрываем скроллбар */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

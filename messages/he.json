@@ -1,0 +1,274 @@
+{
+  "common": {
+    "securityPlatform": "פלטפורמת אבטחה",
+    "getStarted": "התחל עכשיו",
+    "signIn": "התחבר",
+    "watchDemo": "צפה בהדגמה",
+    "learnMore": "למידע נוסף",
+    "contactSupport": "צור קשר עם התמיכה",
+    "freeTrial": "התחל גרסת ניסיון חינם ל-14 יום",
+    "bookDemo": "הזמן הדגמה",
+    "sendMessage": "שלח הודעה",
+    "subscribe": "הירשם",
+    "readMore": "קרא עוד ←",
+    "darkTheme": "עיצוב כהה",
+    "lightTheme": "עיצוב בהיר"
+  },
+  
+  "header": {
+    "features": "תכונות",
+    "solutions": "פתרונות",
+    "pricing": "מחירים",
+    "contact": "צור קשר",
+    "login": "התחבר",
+    "register": "התחל עכשיו"
+  },
+
+  "hero": {
+    "badge": "אבטחה מהדור הבא",
+    "title": "הגנה על רשתות",
+    "titleGradient": "ארגוניות של העתיד",
+    "description": "CatGate היא פלטפורמת Zero Trust מודרנית המספקת גישה מאובטחת למשאבים ללא פגיעה בביצועים או בשימושיות.",
+    "features": {
+      "zeroTrust": "אבטחת Zero Trust",
+      "globalNetwork": "רשת גלובלית",
+      "encryption": "הצפנה מקצה לקצה",
+      "aiThreat": "זיהוי איומים בינה מלאכותית"
+    },
+    "stats": {
+      "uptime": "זמינות",
+      "countries": "מדינות",
+      "companies": "חברות",
+      "support": "תמיכה"
+    }
+  },
+
+  "trustCarousel": {
+    "title": "זוכה לאמון חברות מובילות"
+  },
+
+  "features": {
+    "title": "תכונות חזקות לעסק שלך",
+    "subtitle": "כל מה שצריך לאבטחה ארגונית מודרנית בפלטפורמה אחת",
+    "items": {
+      "zeroTrust": {
+        "title": "ארכיטקטורת Zero Trust",
+        "description": "עקרון 'לעולם אל תאמין, תמיד אמת'. גישה ניתנת רק לאחר אימות רב-שלבי."
+      },
+      "globalMesh": {
+        "title": "רשת Mesh גלובלית",
+        "description": "רשת מבוזרת עם זמן השהייה נמוך. שרתים ביותר מ-50 מדינות לביצועים מקסימליים."
+      },
+      "encryption": {
+        "title": "הצפנה מקצה לקצה",
+        "description": "כל הנתונים מוצפנים ממכשיר המשתמש ועד למשאב היעד. אפילו אנחנו לא יכולים לגשת אליהם."
+      },
+      "instantDeployment": {
+        "title": "פריסה מיידית",
+        "description": "הוסף משתמשים או משאבים חדשים תוך פחות מ-5 דקות. אין צורך בהגדרות מורכבות."
+      },
+      "aiThreat": {
+        "title": "זיהוי איומים בינה מלאכותית",
+        "description": "בינה מלאכותית מנתחת תעבורת רשת וחוזה איומים לפני שהם מתממשים."
+      },
+      "analytics": {
+        "title": "ניתוחים מפורטים",
+        "description": "נראות מלאה של פעילות הרשת. דוחות בזמן אמת ונתונים היסטוריים."
+      }
+    }
+  },
+
+  "howItWorks": {
+    "badge": "מהיר ופשוט",
+    "titlePrefix": "איך ",
+    "titleCompany": "CatGate ",
+    "titleSuffix": "עובדת",
+    "subtitle": "ארבעה צעדים פשוטים לאבטחה מלאה של התשתית שלך",
+    "steps": {
+      "account": {
+        "title": "צור חשבון",
+        "description": "הירשם וצור את הארגון שלך תוך 2 דקות"
+      },
+      "resources": {
+        "title": "הוסף משאבים",
+        "description": "חבר שרתים, יישומים ומסדי נתונים לרשת שלך"
+      },
+      "access": {
+        "title": "הגדר גישה",
+        "description": "הגדר מדיניות גישה למשתמשים וקבוצות"
+      },
+      "protected": {
+        "title": "הגנה פעילה",
+        "description": "המשאבים שלך מוגנים על ידי עקרונות Zero Trust"
+      }
+    }
+  },
+
+  "cta": {
+    "title": "מוכן להתחיל?",
+    "description": "הצטרף ליותר מ-1000 חברות שסומכות על CatGate",
+    "button": "התחל חינם"
+  },
+
+  "faq": {
+    "title": "שאלות ",
+    "titleGradient": "נפוצות",
+    "subtitle": "תשובות לשאלות הנפוצות ביותר על CatGate",
+    "items": {
+      "q1": "מה ההבדל בין CatGate ל-VPN מסורתי?",
+      "a1": "CatGate משתמשת בארכיטקטורת Zero Trust, המספקת גישה רק למשאבים ספציפיים ולא לכל הרשת. זה משפר את האבטחה, מפשט את הניהול ומבטל פגיעויות הטבועות ב-VPN מסורתי.",
+      "q2": "כמה זמן לוקחת ההטמעה?",
+      "a2": "פריסה בסיסית אורכת פחות מ-30 דקות. רוב הלקוחות פעילים תוך יום. צוות התמיכה שלנו עוזר בהעברה ובהגדרה.",
+      "q3": "אילו מערכות הפעלה נתמכות?",
+      "a3": "CatGate תומכת ב-Windows 10/11, macOS, Linux, iOS ו-Android. לקוח אינטרנט זמין גם לכל דפדפן מודרני.",
+      "q4": "כיצד מובטחת אבטחת המידע?",
+      "a4": "כל החיבורים משתמשים בהצפנה מקצה לקצה. אנחנו לא מאחסנים את הנתונים שלך, ומפתחות ההצפנה נוצרים ומאוחסנים רק במכשירים שלך. אימות רב-שלבי מיושם.",
+      "q5": "האם יש מגבלות תעבורה?",
+      "a5": "לא, כל התוכניות מציעות תעבורה בלתי מוגבלת. אנו מאמינים שאבטחה לא צריכה להיות מוגבלת על ידי נפח נתונים.",
+      "q6": "האם ניתן לשלב עם תשתית קיימת?",
+      "a6": "כן, CatGate משתלבת בקלות עם Active Directory, Okta, Google Workspace, Azure AD ומערכות אחרות. REST API זמין לאינטגרציות מותאמות אישית."
+    },
+    "help": "לא מצאת את השאלה שלך?",
+    "contactLink": "צור קשר עם התמיכה ←"
+  },
+
+  "contact": {
+    "title": "צור ",
+    "titleGradient": "קשר",
+    "subtitle": "מוכן לדון כיצד CatGate יכולה להגן על החברה שלך?",
+    "form": {
+      "title": "שלח הודעה",
+      "name": "שם *",
+      "namePlaceholder": "השם שלך",
+      "email": "דוא״ל *",
+      "emailPlaceholder": "your@company.com",
+      "company": "חברה",
+      "companyPlaceholder": "שם החברה",
+      "message": "הודעה *",
+      "messagePlaceholder": "ספר לנו על צרכי האבטחה שלך...",
+      "submit": "שלח הודעה"
+    },
+    "demo": {
+      "title": "בקש הדגמה",
+      "description": "קבל הדגמה אישית ממומחה האבטחה שלנו",
+      "button": "תזמן הדגמה"
+    },
+    "info": {
+      "email": "דוא״ל",
+      "phone": "טלפון",
+      "phoneNote": "תמיכה טכנית: 24/7",
+      "hours": "שעות פעילות",
+      "hoursWeekdays": "א'-ה': 9:00-18:00 (שעון ישראל)",
+      "hoursSupport": "תמיכה: 24/7",
+      "office": "משרד תל אביב",
+      "officeAddress": "רחוב אבן גבירול 10, משרד 501",
+      "officeNote": "מרכז עסקים תל אביב"
+    }
+  },
+
+  "footer": {
+    "description": "פלטפורמה מודרנית לאבטחה ארגונית המבוססת על עקרונות Zero Trust.",
+    "product": "מוצר",
+    "productLinks": {
+      "features": "תכונות",
+      "solutions": "פתרונות",
+      "pricing": "מחירים",
+      "docs": "תיעוד",
+      "api": "API"
+    },
+    "company": "חברה",
+    "companyLinks": {
+      "about": "אודות",
+      "blog": "בלוג",
+      "careers": "קריירה",
+      "partners": "שותפים",
+      "press": "עיתונות"
+    },
+    "newsletter": {
+      "title": "ניוזלטר",
+      "description": "הירשם כדי לקבל חדשות ועדכוני אבטחה",
+      "placeholder": "הדוא״ל שלך",
+      "privacy": "בהרשמתך, אתה מסכים למדיניות הפרטיות שלנו"
+    },
+    "copyright": "כל הזכויות שמורות.",
+    "legal": {
+      "privacy": "מדיניות פרטיות",
+      "terms": "תנאי שימוש",
+      "cookies": "מדיניות עוגיות",
+      "sitemap": "מפת אתר"
+    },
+    "madeWith": "נעשה ב-❤️ לאבטחה"
+  },
+
+  "auth": {
+    "login": {
+      "title": "התחבר",
+      "subtitle": "התחבר לחשבון CatGate שלך כדי לנהל אבטחה",
+      "emailLabel": "דוא״ל",
+      "emailPlaceholder": "your@email.com",
+      "passwordLabel": "סיסמה",
+      "passwordPlaceholder": "••••••••",
+      "forgotPassword": "שכחת סיסמה?",
+      "rememberMe": "זכור אותי",
+      "submitButton": "התחבר",
+      "submittingButton": "מתחבר...",
+      "noAccount": "אין לך חשבון?",
+      "registerLink": "הירשם",
+      "loginWith": "התחבר עם",
+      "backToLogin": "חזרה להתחברות"
+    },
+    "register": {
+      "title": "צור חשבון",
+      "subtitle": "הירשם כדי להתחיל את גרסת הניסיון החינמית שלך ל-14 יום",
+      "nameLabel": "שם מלא",
+      "namePlaceholder": "ישראל ישראלי",
+      "emailLabel": "דוא״ל",
+      "emailPlaceholder": "your@email.com",
+      "passwordLabel": "סיסמה",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "אשר סיסמה",
+      "confirmPasswordPlaceholder": "••••••••",
+      "termsPrefix": "אני מסכים ל",
+      "termsLink": "תנאי השירות",
+      "and": "ו",
+      "privacyLink": "מדיניות הפרטיות",
+      "submitButton": "התחל גרסת ניסיון חינם",
+      "submittingButton": "נרשם...",
+      "hasAccount": "כבר יש לך חשבון?",
+      "loginLink": "התחבר",
+      "registerWith": "הירשם עם",
+      "passwordMismatch": "הסיסמאות אינן תואמות"
+    },
+    "forgotPassword": {
+      "title": "איפוס סיסמה",
+      "subtitle": "הזן את הדוא״ל של החשבון שלך כדי לאפס את הסיסמה",
+      "successTitle": "דוא״ל נשלח",
+      "successMessage": "שלחנו הוראות לאיפוס סיסמה ל-",
+      "emailLabel": "דוא״ל",
+      "emailPlaceholder": "your@email.com",
+      "submitButton": "שלח הוראות",
+      "submittingButton": "שולח...",
+      "backToLogin": "חזרה לדף ההתחברות",
+      "notReceived": "לא קיבלת את המייל? בדוק את תיקיית הספאם או ",
+      "tryAgain": "נסה שוב",
+      "needHelp": "צריך עזרה?",
+      "contactSupport": "צור קשר עם התמיכה"
+    },
+    "social": {
+      "google": "גוגל",
+      "github": "GitHub",
+      "yandex": "יאנדקס"
+    },
+    "footer": {
+      "copyright": "© 2026 CatGate פלטפורמת אבטחה. כל הזכויות שמורות."
+    }
+  },
+
+  "notFound": {
+    "badge": "הדף לא נמצא",
+    "title": "404",
+    "subtitle": "אופס! הדף הזה לא קיים",
+    "description": "ייתכן שהשתמשת בקישור לא מעודכן או שהדף הועבר.",
+    "button": "חזרה לדף הבית"
+  }
+}

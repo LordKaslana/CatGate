@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Определяем кастомный вариант для темной темы */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Базовые цвета через CSS переменные (опционально) */
+:root {
+  --background: 255 255 255;
+  --foreground: 17 24 39;
+}
+
+.dark {
+  --background: 17 24 39;
+  --foreground: 255 255 255;
+}
+
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Твои анимации */
+@keyframes infinite-scroll-desktop {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-176px * 8 - 2rem)); }
+}
+
+@keyframes infinite-scroll-mobile {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-120px * 8 - 1rem)); }
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll-desktop 30s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .animate-infinite-scroll {
+    animation-name: infinite-scroll-mobile;
+    animation-duration: 40s;
+  }
+}
