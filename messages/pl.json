@@ -211,6 +211,7 @@
       "forgotPassword": "Zapomniałeś hasła?",
       "rememberMe": "Zapamiętaj mnie",
       "submitButton": "Zaloguj się",
+      "errorMessage": "Nieprawidłowy login lub hasło",
       "submittingButton": "Logowanie...",
       "noAccount": "Nie masz konta?",
       "registerLink": "Zarejestruj się",

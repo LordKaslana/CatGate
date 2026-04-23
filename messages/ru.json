@@ -210,6 +210,7 @@
       "forgotPassword": "Забыли пароль?",
       "rememberMe": "Запомнить меня",
       "submitButton": "Войти в аккаунт",
+      "errorMessage": "Неверный логин или пароль",
       "submittingButton": "Вход...",
       "noAccount": "Нет аккаунта?",
       "registerLink": "Зарегистрироваться",

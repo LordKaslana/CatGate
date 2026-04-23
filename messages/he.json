@@ -211,6 +211,7 @@
       "forgotPassword": "שכחת סיסמה?",
       "rememberMe": "זכור אותי",
       "submitButton": "התחבר",
+      "errorMessage": "שם משתמש או סיסמה שגויים",
       "submittingButton": "מתחבר...",
       "noAccount": "אין לך חשבון?",
       "registerLink": "הירשם",

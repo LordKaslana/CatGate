@@ -17,6 +17,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(''); // 👈 ДОБАВИТЬ ЭТУ СТРОКУ
   const router = useRouter();
   const locale = useLocale();
   const t = useTranslations('auth');
@@ -26,21 +27,37 @@ export default function LoginPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
+    setError(''); // 👈 ОЧИЩАЕМ СТАРУЮ ОШИБКУ
     
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    console.log('Login attempt:', { email, password });
-    setIsLoading(false);
+    // 👇 ВЕСЬ ЭТОТ БЛОК ЗАМЕНИТЬ НА НОВЫЙ
+    try {
+      const res = await fetch('/api/auth/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password }),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        router.push(`/${locale}/profile`);
+      } else {
+        setError(data.message || tLogin('errorMessage') || 'Неверный логин или пароль');
+      }
+    } catch {
+      setError('Ошибка соединения с сервером');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-950 flex flex-col">
-      {/* Header - изменен фон градиента для темной темы */}
+      {/* Header */}
       <header className="py-6 border-b border-blue-700 dark:border-red-700 bg-gradient-to-r from-blue-800 to-blue-900 dark:from-gray-950 dark:to-gray-900">
         <Container>
           <div className="flex items-center justify-between">
             <Link href={`/${locale}`} className="flex items-center space-x-3">
-              {/* Иконка с градиентом - в темной теме красная */}
               <div className="p-2 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 dark:from-red-600 dark:to-red-800">
                 <Shield className="w-6 h-6 text-white dark:text-white" />
               </div>
@@ -48,7 +65,6 @@ export default function LoginPage() {
                 <span className="text-xl font-bold text-white dark:text-white">
                   CatGate
                 </span>
-                {/* Текст под логотипом - в темной теме красный */}
                 <div className="text-xs text-blue-200 dark:text-red-300">
                   Security Platform
                 </div>
@@ -73,17 +89,14 @@ export default function LoginPage() {
         <Container>
           <div className="max-w-md mx-auto">
             <div className="text-center mb-10">
-              {/* Заголовок - в темной теме белый */}
               <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-3">
                 {tLogin('title')}
               </h1>
-              {/* Подзаголовок - светлее в темной теме */}
               <p className="text-gray-600 dark:text-gray-400">
                 {tLogin('subtitle')}
               </p>
             </div>
 
-            {/* Карточка формы - темный фон в темной теме */}
             <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-8">
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* Email Field */}
@@ -153,7 +166,14 @@ export default function LoginPage() {
                   </label>
                 </div>
 
-                {/* Submit Button - изменен градиент для темной темы */}
+                {/* 👇 ДОБАВИТЬ БЛОК С ОШИБКОЙ */}
+                {error && (
+                  <div className="text-red-600 dark:text-red-400 text-sm text-center">
+                    {error}
+                  </div>
+                )}
+
+                {/* Submit Button */}
                 <Button
                   type="submit"
                   variant="primary"

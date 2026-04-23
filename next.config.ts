@@ -1,11 +1,14 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from 'next-intl/plugin';
 
-// 👇 Specify the exact path to your config file
 const withNextIntl = createNextIntlPlugin('./i18n.ts');
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  env: {
+    JWT_SECRET: process.env.JWT_SECRET,
+    ADMIN_EMAIL: process.env.ADMIN_EMAIL,
+    ADMIN_PASSWORD: process.env.ADMIN_PASSWORD,
+  },
 };
 
 export default withNextIntl(nextConfig);

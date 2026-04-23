@@ -211,6 +211,7 @@
       "forgotPassword": "Glemt passord?",
       "rememberMe": "Husk meg",
       "submitButton": "Logg inn",
+      "errorMessage": "Feil brukernavn eller passord",
       "submittingButton": "Logger inn...",
       "noAccount": "Har du ikke en konto?",
       "registerLink": "Registrer deg",

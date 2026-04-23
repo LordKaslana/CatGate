@@ -211,6 +211,7 @@
       "forgotPassword": "Mot de passe oublié ?",
       "rememberMe": "Se souvenir de moi",
       "submitButton": "Se connecter",
+      "errorMessage": "Identifiant ou mot de passe incorrect",
       "submittingButton": "Connexion en cours...",
       "noAccount": "Pas encore de compte ?",
       "registerLink": "S'inscrire",

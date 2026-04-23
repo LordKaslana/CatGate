@@ -211,6 +211,7 @@
       "forgotPassword": "Password dimenticata?",
       "rememberMe": "Ricordami",
       "submitButton": "Accedi",
+      "errorMessage": "Login o password errati",
       "submittingButton": "Accesso in corso...",
       "noAccount": "Non hai un account?",
       "registerLink": "Registrati",

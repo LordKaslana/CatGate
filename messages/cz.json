@@ -211,6 +211,7 @@
       "forgotPassword": "Zapomněli jste heslo?",
       "rememberMe": "Zapamatovat si mě",
       "submitButton": "Přihlásit se",
+      "errorMessage": "Nesprávné přihlašovací jméno nebo heslo",
       "submittingButton": "Přihlašování...",
       "noAccount": "Nemáte účet?",
       "registerLink": "Registrovat se",
