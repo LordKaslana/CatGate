@@ -38,9 +38,18 @@ export default function ProfilePage() {
       });
   }, [router, locale]);
 
-  const handleLogout = async () => {
-    await fetch('/api/auth/logout', { method: 'POST' });
-    router.push(`/${locale}/login`);
+  // ВЫХОД
+  const handleLogout = () => {
+    if (confirm('Вы уверены, что хотите выйти?')) {
+      // Открываем рикролл в новой вкладке
+      window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+
+      // выход через 0.5 секунды
+      setTimeout(async () => {
+        await fetch('/api/auth/logout', { method: 'POST' });
+        router.push(`/${locale}/login`);
+      }, 500);
+    }
   };
 
   if (loading) {
