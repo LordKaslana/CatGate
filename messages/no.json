@@ -271,5 +271,16 @@
     "subtitle": "Ops! Denne siden finnes ikke",
     "description": "Du kan ha fulgt en utdatert lenke eller siden er flyttet.",
     "button": "Tilbake til forsiden"
-  }
+  },
+
+  "profile": {
+  "title": "Profil",
+  "welcome": "Velkommen til CatGate",
+  "accountInfo": "Kontoinformasjon",
+  "email": "E-post",
+  "role": "Rolle",
+  "logout": "Logg ut",
+  "backToHome": "Tilbake til hjem",
+  "loading": "Laster..."
+}
 }

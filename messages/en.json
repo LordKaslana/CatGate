@@ -269,5 +269,16 @@
     "subtitle": "Oops! This page doesn't exist",
     "description": "You may have followed an outdated link or the page has been moved.",
     "button": "Back to home"
-  }
+  },
+
+  "profile": {
+  "title": "Profile",
+  "welcome": "Welcome to CatGate",
+  "accountInfo": "Account Information",
+  "email": "Email",
+  "role": "Role",
+  "logout": "Logout",
+  "backToHome": "Back to home",
+  "loading": "Loading..."
+}
 }

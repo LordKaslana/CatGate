@@ -271,5 +271,16 @@
     "subtitle": "Jejda! Tato stránka neexistuje",
     "description": "Možná jste použili neplatný odkaz nebo byla stránka přesunuta.",
     "button": "Zpět na domovskou stránku"
-  }
+  },
+
+  "profile": {
+  "title": "Profil",
+  "welcome": "Vítejte v CatGate",
+  "accountInfo": "Informace o účtu",
+  "email": "E-mail",
+  "role": "Role",
+  "logout": "Odhlásit se",
+  "backToHome": "Zpět na domovskou stránku",
+  "loading": "Načítání..."
+}
 }

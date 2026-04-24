@@ -271,5 +271,16 @@
     "subtitle": "Ups! Ta strona nie istnieje",
     "description": "Być może użyłeś nieaktualnego linku lub strona została przeniesiona.",
     "button": "Powrót do strony głównej"
-  }
+  },
+
+  "profile": {
+  "title": "Profil",
+  "welcome": "Witamy w CatGate",
+  "accountInfo": "Informacje o koncie",
+  "email": "E-mail",
+  "role": "Rola",
+  "logout": "Wyloguj się",
+  "backToHome": "Powrót do strony głównej",
+  "loading": "Ładowanie..."
+}
 }

@@ -271,5 +271,16 @@
     "subtitle": "Oups ! Cette page n'existe pas",
     "description": "Vous avez peut-être suivi un lien obsolète ou la page a été déplacée.",
     "button": "Retour à l'accueil"
-  }
+  },
+
+  "profile": {
+  "title": "Profil",
+  "welcome": "Bienvenue sur CatGate",
+  "accountInfo": "Informations du compte",
+  "email": "E-mail",
+  "role": "Rôle",
+  "logout": "Déconnexion",
+  "backToHome": "Retour à l'accueil",
+  "loading": "Chargement..."
+}
 }

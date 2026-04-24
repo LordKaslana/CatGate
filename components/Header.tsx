@@ -3,13 +3,14 @@
 import React, { useState, useEffect } from 'react';
 import { Container } from './ui/Container';
 import { Button } from './ui/Button';
-import { Shield, Menu, X } from 'lucide-react';
+import { Shield, Menu, X, User } from 'lucide-react';
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { locales } from '@/i18n';
 import LanguageSwitcher from './LanguageSwitcher';
 import ThemeSwitcher from './ThemeSwitcher';
+import { useAuth } from '@/hooks/useAuth';
 
 export const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,6 +23,7 @@ export const Header: React.FC = () => {
   const locale = useLocale();
   const t = useTranslations('header');
   const tCommon = useTranslations('common');
+  const { isAuthenticated, loading } = useAuth();
 
   useEffect(() => {
     const controlHeader = () => {
@@ -65,11 +67,13 @@ export const Header: React.FC = () => {
   const buttonOutlineStyles = "border-white/50 text-white hover:bg-white/10 dark:border-red-400/50 dark:text-white dark:hover:bg-red-950/50";
   const mobileMenuBackground = "bg-blue-900/95 backdrop-blur-md dark:bg-gray-950/95 dark:border-t dark:border-red-800/30";
 
+  const getLocalizedPath = (path: string) => `/${locale}${path}`;
+
   return (
     <header className={`${headerStyles.base} ${headerStyles.visible} ${headerStyles.background}`}>
       <Container>
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Логотип - как в forgot-password */}
+          {/* Логотип */}
           <Link href={`/${locale}`} className="flex items-center space-x-3">
             <div className="p-2 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 dark:bg-red-600 dark:from-red-600 dark:to-red-700">
               <Shield className="w-6 h-6 text-white" />
@@ -105,20 +109,34 @@ export const Header: React.FC = () => {
             <ThemeSwitcher />
             <LanguageSwitcher />
 
-            <Button 
-              variant="outline"
-              className="border-white/50 text-white hover:bg-white/10 dark:border-red-400/50 dark:text-white dark:hover:bg-red-950/50 transition-all duration-300"
-              onClick={() => router.push(`/${locale}/login`)}
-            >
-              {t('login')}
-            </Button>
-            <Button 
-              variant="primary" 
-              className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:from-cyan-600 hover:to-blue-700 shadow-lg hover:shadow-xl transition-all duration-300 dark:from-red-600 dark:to-red-800 dark:hover:from-red-700 dark:hover:to-red-900"
-              onClick={() => router.push(`/${locale}/register`)}
-            >
-              {t('register')}
-            </Button>
+            {!loading && (
+              <>
+                {isAuthenticated ? (
+                  <Link href={getLocalizedPath('/profile')}>
+                    <button className="p-2 rounded-lg hover:bg-white/10 transition-colors">
+                      <User className="w-5 h-5 text-white" />
+                    </button>
+                  </Link>
+                ) : (
+                  <>
+                    <Button 
+                      variant="outline"
+                      className="border-white/50 text-white hover:bg-white/10 dark:border-red-400/50 dark:text-white dark:hover:bg-red-950/50 transition-all duration-300"
+                      onClick={() => router.push(getLocalizedPath('/login'))}
+                    >
+                      {t('login')}
+                    </Button>
+                    <Button 
+                      variant="primary" 
+                      className="bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:from-cyan-600 hover:to-blue-700 shadow-lg hover:shadow-xl transition-all duration-300 dark:from-red-600 dark:to-red-800 dark:hover:from-red-700 dark:hover:to-red-900"
+                      onClick={() => router.push(getLocalizedPath('/register'))}
+                    >
+                      {t('register')}
+                    </Button>
+                  </>
+                )}
+              </>
+            )}
           </div>
 
           {/* Мобильное меню кнопка */}
@@ -168,26 +186,44 @@ export const Header: React.FC = () => {
               </div>
 
               <div className="pt-4 space-y-3">
-                <Button 
-                  variant="outline" 
-                  className="w-full border-white/50 text-white hover:bg-white/10 dark:border-red-400/50 dark:text-white dark:hover:bg-red-950/50"
-                  onClick={() => {
-                    router.push(`/${locale}/login`);
-                    setIsMenuOpen(false);
-                  }}
-                >
-                  {t('login')}
-                </Button>
-                <Button 
-                  variant="primary" 
-                  className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white dark:from-red-600 dark:to-red-800"
-                  onClick={() => {
-                    router.push(`/${locale}/register`);
-                    setIsMenuOpen(false);
-                  }}
-                >
-                  {t('register')}
-                </Button>
+                {!loading && (
+                  <>
+                    {isAuthenticated ? (
+                      <Link href={getLocalizedPath('/profile')} onClick={() => setIsMenuOpen(false)}>
+                        <Button 
+                          variant="outline" 
+                          className="w-full border-white/50 text-white hover:bg-white/10 dark:border-red-400/50 dark:text-white dark:hover:bg-red-950/50"
+                        >
+                          <User className="w-4 h-4 mr-2" />
+                          Профиль
+                        </Button>
+                      </Link>
+                    ) : (
+                      <>
+                        <Button 
+                          variant="outline" 
+                          className="w-full border-white/50 text-white hover:bg-white/10 dark:border-red-400/50 dark:text-white dark:hover:bg-red-950/50"
+                          onClick={() => {
+                            router.push(getLocalizedPath('/login'));
+                            setIsMenuOpen(false);
+                          }}
+                        >
+                          {t('login')}
+                        </Button>
+                        <Button 
+                          variant="primary" 
+                          className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white dark:from-red-600 dark:to-red-800"
+                          onClick={() => {
+                            router.push(getLocalizedPath('/register'));
+                            setIsMenuOpen(false);
+                          }}
+                        >
+                          {t('register')}
+                        </Button>
+                      </>
+                    )}
+                  </>
+                )}
               </div>
             </div>
           </div>

@@ -271,5 +271,16 @@
     "subtitle": "Hoppla! Diese Seite existiert nicht",
     "description": "Möglicherweise haben Sie einen veralteten Link verwendet oder die Seite wurde verschoben.",
     "button": "Zurück zur Startseite"
-  }
+  },
+
+  "profile": {
+  "title": "Profil",
+  "welcome": "Willkommen bei CatGate",
+  "accountInfo": "Kontoinformationen",
+  "email": "E-Mail",
+  "role": "Rolle",
+  "logout": "Abmelden",
+  "backToHome": "Zurück zur Startseite",
+  "loading": "Laden..."
+}
 }
