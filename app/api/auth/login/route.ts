@@ -1,14 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
 import jwt from 'jsonwebtoken';
 
+const JWT_SECRET = process.env.JWT_SECRET!;
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL!;
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD!;
+
 export async function POST(request: NextRequest) {
   try {
     const { email, password } = await request.json();
 
-    if (email === 'admin@catgate.com' && password === 'admin123') {
+    if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
       const token = jwt.sign(
         { email, role: 'admin' },
-        'your_super_secret_key_change_me',
+        JWT_SECRET,  // ТЕПЕРЬ БЕРЁТ ИЗ .env
         { expiresIn: '7d' }
       );
 
@@ -16,7 +20,7 @@ export async function POST(request: NextRequest) {
       
       response.cookies.set('token', token, {
         httpOnly: true,
-        secure: false,
+        secure: process.env.NODE_ENV === 'production',
         sameSite: 'lax',
         maxAge: 60 * 60 * 24 * 7,
         path: '/',
