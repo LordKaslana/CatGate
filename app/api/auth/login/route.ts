@@ -12,7 +12,7 @@ export async function POST(request: NextRequest) {
     if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
       const token = jwt.sign(
         { email, role: 'admin' },
-        JWT_SECRET,  // ТЕПЕРЬ БЕРЁТ ИЗ .env
+        JWT_SECRET,
         { expiresIn: '7d' }
       );
 
